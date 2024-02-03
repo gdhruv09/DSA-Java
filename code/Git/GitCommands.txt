@@ -1,0 +1,70 @@
+Git Comnds –
+
+1.Git – to check if the git is installed or not 
+2.ls – list all the files and folders 
+3.mkdir project – make directory name project
+4.cd project – change directory project – go inside the folder
+5.git init – to initialize the git history 
+	a. we have to cmnd git init for making the history of the project
+6.ls -a – list all the hidden files
+7.ls .git – to list all the things under .git folder 
+8.touch names.txt – to create a file named names.txt
+9.git status – to check the status of the project 
+	a. to keep the track of tacked files and untracked files. 
+10.Rm -rf names.txt – to remove the names.txt file. 
+11.git add names.txt – to add the names.txt to get tracked.
+12.git add . – to put all the files on the staging area 
+13.git commit -m “names.txt file added” – to commit the changes to the project
+14.vi names.txt – to edit the names.txt file 
+	a.esc + :x – to exit from the names.txt
+15.cat names.txt – to display what is inside names.txt file
+16.git restore –staged names.txt – to bring back from tracked files to untracked files. 
+17.Git log – to check the history of the project
+18.If you want to remove the commits just copy below commit and above commits will be removed 
+	a. Git reset #hash id – to reset to the particular date 
+	b. The files will be not transfer to untagged area. 
+19.Git stash – to put the files to backstage area without making the changes in the project and saving them in the project
+	a. When you do not want changes to be saved so stored somewhere in the back staged.
+20.Git stash pop – to pop the stashed files that were there in the project
+21.Git stash clear – to delete the changes that were in the backstage 
+22.Git remote -v – to check the url in the project
+23.git remote add origin url – to add the url to your git project 
+	a. git – git is the comnd
+	b. remote – that you are using url
+	c. add – to add the url in the code
+	d. origin – the name of the url 
+	e. url – the link to the url 
+24.git push origin master – to push the changes into the git repository 
+	a. git – git comnd
+	b. push – to push the url to GitHub
+	c. origin – name of the url
+ 	d. master – branch name of the project.
+25.The use of a branch is to commit and pull request for a specific bug or feature.	
+	a.Git branch kunal 
+	b.Git checkout kunal
+26.Head is a pointer and all the commits made from there will be added to the head branch. 
+27.Git clone url – to copy the project to your profile. 
+28.Never commit on the main branch and for every branch there should a other pull request.
+29.git fetch –all –prune – to reset the files
+30.git reset –hard upstream/main – to reset the upstream forked project. 
+
+
+Git Commands for saving the history of the project
+1.git init – to initialize the git history
+2.touch names.txt – to create a file named names.txt
+3.git add names.txt – to add the names.txt to be tracked. 
+4.git commit -m “names.txt file added” 
+
+Git commands for GitHub to push the commands on the GitHub
+1.git init – to initialize the git history 
+2.git remote add origin url – to add the url to your git project  
+3.Git Commands for saving the history of the project – steps again
+4.git push origin master – to push the changes into the git repository 
+
+Git commands for cloning the project – 
+1.git clone url 
+
+Git commands to pull request from your project to the main project
+1.git init – to initialize the git history 
+2.git push origin kunal – to push the changes to the pull request 
+

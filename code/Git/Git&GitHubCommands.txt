@@ -1,0 +1,222 @@
+Complete Git and GitHub Practice
+
+mkdir Git
+ls
+cd Git
+git init
+touch gitCommands.txt
+git status
+git add gitCommands.txt
+git commit -m "gitCommands.txt file created"
+git status
+vi gitCommands.txt
+cat gitCommands.txt
+git restore --staged gitCommands.txt
+git status
+git log
+git add .
+git commit -m "gitCommands.txt file midified" 
+git status
+git stash
+git restore --staged gitCommands.txt
+git status
+git stash
+git log
+git config --global user.email "gupta.dhruv184gmail.com"
+git config --global user.name "gdhruv09"
+git remote -v
+git remote add origin https://github.com/gdhruv09/0-1_Cohort.git
+git commit -m "files added"
+git push -u -f origin master
+git add .
+git push origin master
+git add DSA-Bootcamp-Java
+git add DSA-Bootcamp-Java/*
+cd Mern-Stack-Bootcamp
+git add .
+git add ./*
+git commit -m "files added"
+git push origin master
+git status
+git add -A
+git commit -m "Project added"
+cd courses
+rm -rf .git
+git init
+git add courses 
+git commit -m "Added a course project"
+git status
+git add Courses
+git remote add origin https://github.com/gdhruv09/0-1_Cohort.git
+git push origin master -f
+git push origin master
+git status
+git push origin master
+git push 
+git push -f origin master
+rm -rf .git
+cd Courses
+git init
+git branch_name main
+git branch temp
+git add -A
+git commit -m "Project added"
+git remote add origin https://github.com/gdhruv09/0-1_Cohort.git
+git push -u -f origin master
+git submodule add <url> DSA-Bootcamp-Java
+git submodule add https://github.com/gdhruv09/0-1_Cohort.git DSA-Bootcamp-Java
+rm -rf.git
+git init
+git add -A
+git submodule add C:\Users\Dhruv\Courses\DSA-Bootcamp-Java DSA-Bootcamp-Java
+git submodule add C:\Users\Dhruv\Courses\DSA-Bootcamp-Java\assignments DSA-Bootcamp-Java
+git push origin master
+rm -rf .git
+git remote add origin master https://github.com/gdhruv09/DSA-Java.git
+git remote add origin https://github.com/gdhruv09/DSA-Java.git
+git status
+git add assignments
+git add assignments/*
+git status
+git commit -m "assisgnemnet file added" 
+git push origin master 
+git status
+git add assignments/01-flow-of-program.md
+git status
+git commit -m "assignment file added"
+git push origin master
+git status
+git add assignments/01-flow-of-program.md
+git commit -m "assignment file added"
+git push origin master
+git init
+git remote add origin https://github.com/gdhruv09/Mern-Stack-Devlopment.git
+git status
+git add Code 
+git status
+git add code/*
+git status
+git commit -m "Code file added" 
+git push origin master
+git status
+git status
+git add code 
+git add code/*
+git commit -m " code file added" 
+git push origin master
+git clone https://github.com/kunal-kushwaha/DevOps-Bootcamp.git
+cd Git&GitHubCommands.txt
+git remote -v
+rm -rf .git
+mkdir project 
+ls
+cd project
+touch names.txt
+vi names.txt
+git status
+git remote -v
+mkdir project 
+cd project
+git init
+git touch names.txt
+touch names.txt
+vi touch names.txt
+cat touch.txt
+cat names.txt
+cat names,txt
+cat names.txt
+cat touch 
+git status 
+git add names.txt 
+git commit -m "names.txt file added" 
+git status
+git add . 
+git add.
+git add .
+git add touch 
+git commit -m "touch file added"
+git status
+git push origin master 
+git push origin master -f
+git status
+git push origin master
+git push origin main
+git push origin master
+git remote -v
+git init
+git remote -v
+rm -rf .git
+cd DSA-Bootcamp-Java
+rm -rf .git
+git init
+git remote add origin https://github.com/gdhruv09/DSA-Java.git
+git add code 
+git code/*
+git add code/*
+git status
+git commit -m "code/Git&GitHubCommands.txt file added" 
+git push origin master
+git add code 
+git add code/*
+git commit -m "code file created" 
+git push origin master
+git push origin master
+git status
+git init
+git status
+git add code 
+git add code/*
+git commit -m "code file created" 
+git push origin master
+git push origin master -f
+git init 
+git add assignments
+git add assignments/*
+git status
+git commit -m "assignments codes practice questions"
+git push origin master
+cd DSA-Bootcamp-Java
+cat code.java
+git init
+git add code.java
+git status
+cd DSA-Bootcamp-Java
+git status
+git add code
+git status
+git add Code/Code.java
+git status
+git stash code/.idea/.gitignore
+git stash code/.idea/.gitignore
+git stash code/.idea
+git status
+git status
+git add code
+git add code/*
+git status
+git add code /*
+git add code/*
+git push origin master
+git init
+git status
+git add code
+git add code
+git init
+git status
+git add code
+cd Courses
+cd DSA-Bootcamp-Java
+git init
+git add code
+git add code/8
+git add code/*
+git commit -m "code file added" 
+git push origin master -f
+git init 
+git add assigments 
+git add assignments
+git add assignments/*
+git add practice
+git add practice/*
+git commit -m "files added"
+git push origin master
