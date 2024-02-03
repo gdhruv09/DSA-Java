@@ -66,5 +66,4 @@ Git commands for cloning the project –
 
 Git commands to pull request from your project to the main project
 1.git init – to initialize the git history 
-2.git push origin kunal – to push the changes to the pull request 
-
+2.git push origin kunal – to push the changes to the pull request
